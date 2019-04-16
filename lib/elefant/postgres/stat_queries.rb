@@ -21,7 +21,7 @@ module Elefant::Postgres
             xact_start       AS act_tx_start,
             query_start      AS act_q_start,
             state_change     AS act_st_chng,
-            waiting          AS act_wtng,
+            wait_event       AS act_wtng,
             state            AS act_state,
             query            AS act_qry
           FROM
